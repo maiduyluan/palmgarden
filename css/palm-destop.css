@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Rajdhani:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+}
+
+.wrapper {
+    position: relative;
+    background-color: #faf5f5;
+
+}
+
+
+.lock {
+    position: fixed;
+    background-color: #1e8f36;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(180deg, rgb(23 86 31) 0%, rgba(11,89,98,-0.684436) 100%);
+    position: absolute;
+    z-index: 99;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+
+.navbar {
+    width: 70%;
+    max-height: 140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 15px;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #c9822e;
+}
+
+.navbar .nav-center {
+    width: 14%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar .nav-center img {
+    width: 100%;
+    height: 100px;
+}
+
+.btn-nav {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+}
+
+.res-nav {
+    display: none;
+}
+
+/* MODAL VIEW 360 */
+
+.modal-content {
+    left: -250px;
+}
+
+.modal-content iframe {
+    width: 1000px;
+}
+
+/*-------------- NAVBAR-HEADER ----------*/
+
+.slide-banner {
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;;
+}
+
+.swiper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(38,109,113,1) 0%, rgba(11,89,98,-0.684436) 18%);
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-item1 {
+    position: relative;
+}
+
+.banner-item2 {
+    position: relative;
+}
+
+.banner-img1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imgPalmGarden/POST-ADS-1-1400x729.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/imgPalmGarden/Palm-Garden-2-1400x788.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-caption {
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    left: 39%;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+.slick-track {
+    height: 100vh;
+}
+
+.form-product-document {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    height: 425px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px; 
+    display: block;
+}
+
+.title-document {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.content-document {
+    font-size: 13px;
+}
+
+.content-document i {
+    color: red;
+}
+
+.form-product-document .form-document {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-product-document .form-document  input{
+    width: 280px;
+    height: 35px;
+    margin: 5px 0px;
+    font-size: 18px;
+    border: 1px solid #0000002b;
+    color: #0000002b;
+    padding-left: 10px;
+}
+
+.form-product-document .form-document  input:focus {
+    color: black;
+}
+
+.form-product-document .form-document button {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #e5be74;
+    background-image: linear-gradient(-267deg,#f9e8bd 0%,#e4bd73 100%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.form-product-document .form-document button:hover {
+    cursor: pointer;
+}
+
+.content-document-below {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.hotline {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 23px;
+}
+
+/* SLIDE */
+
+.main-intro{
+    width: 100%;
+    height: 580px;
+    background-color: #0b4a19;
+    background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+    padding: 0% 10%;
+}
+
+.item-intro {
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+}
+
+.content-intro { 
+    width: 50%;
+    height: 10%;
+    padding: 0px 20px;
+}
+
+.content-intro p { 
+    color: white;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.content-intro p img { 
+    width: 20px;
+    height: 20px;
+}
+
+.content-intro p span{ 
+    color: #FFCC00;
+}
+
+
+.content-intro h3 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear,left top,right top,from(#c9822e),color-stop(70%,#ffe6b8));
+    background-image: -o-linear-gradient(left,#c9822e 0,#ffe6b8 70%);
+    background-image: linear-gradient(90deg,#c9822e,#ffe6b8 70%);
+    color: #c9822e;
+    font-weight: bold;
+}
+
+.img-intro {
+    width: 50%;
+    height: 640px;
+    overflow: hidden;
+}
+
+.img-intro-item1 {
+    background-image: url(/imgPalmGarden/z3739405491502_7d027b60530f5d5cc844e181333e413d.jpg);
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.title-container {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    padding: 50px 0px 70px 0px;
+    background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+}
+
+/* MAIN INTRO */
+
+.item-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-location {
+    height: 500px;
+}
+
+.img-location-item {
+    background-image: url(/imgPalmGarden/vitri-palmgarden.png);
+}
+
+/* MAIN LOCATION */
+
+.item-ground {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-ground-item {
+    background-image: url(/imgPalmGarden/mb-palmgarden.jpg);
+}
+
+/* MAIN GROUND */
+
+.main-product  {
+    width: 100%;
+    height: 750px;
+    padding: 0% 10%;
+    position: relative;
+}
+
+.content-product {
+    height: 700px;
+    background-color: #0b4a19;
+    background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+    color: white;
+    padding: 80px 200px 0px 100px !important;
+}
+
+.content-product h3 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear,left top,right top,from(#c9822e),color-stop(70%,#ffe6b8));
+    background-image: -o-linear-gradient(left,#c9822e 0,#ffe6b8 70%);
+    background-image: linear-gradient(90deg,#c9822e,#ffe6b8 70%);
+    color: #c9822e;
+}
+
+.content-product p {
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+.content-product p span {
+    font-size: 23px;
+    color: #FFCC00;
+}
+
+.content-product a {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: #e5be74;
+    background-image: linear-gradient(-267deg,#f9e8bd 0%,#e4bd73 100%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    padding: 4px 20px;
+    border-radius: 30px;
+    transition: 0.2s ease;
+}
+
+.content-product a:hover {
+    color: #e5be74;
+}
+
+.img-product {
+    position: relative;
+}
+
+.overlay-product {
+    position: absolute;
+    bottom: -150px;
+    left: -200px;
+    z-index: 0;
+    width: 80%;
+    height: 90%;
+    background-image: url(/imgSunValley/img-15-9-22/pattern-bg-large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-product-item {
+    position: absolute;
+    bottom: -90px;
+    left: -100px;
+    z-index: 2;
+    width: 115%;
+    height: 100%;
+}
+
+.title-container2 {
+    height: 300px;
+}
+
+.overlay-product2 {
+    bottom: -30px;
+}
+
+.img-product-item2 {
+    bottom: 50px;
+}
+
+/* MAIN PRODUCT */
+
+.main-news {
+    width: 100%;
+    height: 100%;
+    padding: 0% 15%; 
+    font-size: 22px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.box-news {
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.img-news {
+    width: 100%;
+    height: 350px;
+    background-image: url(/imgSunValley/news/Cactus-Garden-Bao-Lam\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.content-news {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+    background: linear-gradient(0deg,rgba(0,0,0,.8),rgba(255,255,255,0) 100%);
+    border-radius: 15px;
+}
+
+.box-news:hover .overlay-news {
+    transform: translateY(-100%);
+    display:block;
+}
+
+.overlay-news {
+    position: absolute;
+    top: 10;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 110px 0px;
+    background-color: rgba(6,52,81, .8);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    transform: translateY(0);
+    transition: all 0.5s;
+}
+
+.overlay-news:hover {
+    color: #fff;
+}
+
+.overlay-news h3 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear,left top,right top,from(#c9822e),color-stop(70%,#ffe6b8));
+    background-image: -o-linear-gradient(left,#c9822e 0,#ffe6b8 70%);
+    background-image: linear-gradient(90deg,#c9822e,#ffe6b8 70%);
+    color: #c9822e;
+}
+
+.img-news-top {
+    background-image: url(/imgPalmGarden/news-top.jpg);
+}
+
+.img-news2 {
+    background-image: url(/imgSunValley/news/photo1662953717917-1662953718162835956229.webp);
+}
+
+
+.img-news3 {
+    background-image: url(/imgSunValley/news/2.jpg);
+}
+
+.img-news4 {
+    background-image: url(/imgSunValley/news/logo-img4279-16406825604311524582066.jpg);
+}
+
+.img-news5 {
+    background-image: url(/imgSunValley/news/hinh-anh-trao-so-cho-khach-hang-da-mua-sun-valley-bao-loc-1-600x600.jpg);
+}
+
+.img-news6 {
+    background-image: url(/imgSunValley/news/video-600x564.jpg);
+}
+
+/* MAIN NEWS */
+
+.main-contact {
+    width: 100%;
+    height: 650px;
+    background-image: url(/imgSunValley/logo/home-8-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.item-form-contact p {
+    margin-bottom: 10px;
+}
+
+.form-contact input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #80808096;
+    margin: 0px 20px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: transparent;
+}
+
+.form-contact textarea {
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #80808096;
+    background-color: transparent;
+}
+
+.form-contact button {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #1f4a64;
+}
+
+/* MAIN CONTACT */
+
+footer {
+    width: 100%;
+    height: 370px;
+    padding: 0% 15%;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b4a19;
+    background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+}
+
+.item-footer a img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.col-res2 {
+    padding: 10px 0px;
+}
+
+.item-footer p i {
+    margin-right: 10px;
+}
+
+.item-footer h3 {
+    color: #c9822e;
+}
+
+.item-footer ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.footer-contact {
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    background-color: rgba(255,255,255,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 15px;
+
+}
+
+.footer-contact:hover {
+    color: #FFF;
+}
+
+/* FOOTER  */
+
+.call-zalo {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index:99;
+}
+
+.icon-zalo img {
+    width: 100px;
+    height: auto;
+}
+
+.circle-zalo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #008fe6;
+    border-radius: 90%;
+    opacity: 0.7;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from { transform: scale(0); opacity: 1; } to { transform: scale(1); opacity: 0;}
+}
+
+.circle-zalo-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #008fe6;
+    border-radius: 100%;
+    opacity: 0.7;   
+    animation-name: move-fill;
+    animation-duration: 1.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-fill {
+    from { transform: scale(0); opacity: 1; } to { transform: scale(1); opacity: 0; } 
+}
+
+/* ZALO */
+
+.main-banner-news {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #FFF;
+    padding: 2% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-banner-news img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.main-banner-news p {
+    font-size: 20px;
+}
+
+.leaf-col {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.leaf-col-reverse {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.main-strong {
+    position: relative;
+    background-color: #0b4a19;
+}
+
+.leaf-row {
+    position: absolute;
+    top: -175px;
+    left: 0;
+    z-index: 1;
+}
+
+.leaf-row-reverse {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    z-index: 1;
+}
+
+.img-strong-item {
+    background-image: url(/imgPalmGarden/Palm-Garden-Bao-Loc-1400x788.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.main-dev {
+    width: 100%;
+    height: 100%;
+    padding: 3% 10%;
+    background-color: #0b4a19;
+    background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+}
+
+.item-dev img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-dev {
+    margin-bottom: 20px;
+}
+
+.content-strong p {
+    color: #ff9d9d;
+}
+
+.content-strong p strong {
+    color: #69dd97;
+}
+
+.item-dev h3 {
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear,left top,right top,from(#c9822e),color-stop(70%,#ffe6b8));
+    background-image: -o-linear-gradient(left,#c9822e 0,#ffe6b8 70%);
+    background-image: linear-gradient(90deg,#c9822e,#ffe6b8 70%);
+    color: #c9822e;
+    margin-bottom: 20px;
+}
+
+.row {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.main-ground {
+    height: 540px;
+}
+
+.arrow-btn {
+    cursor: pointer;
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 47%;
+}
+
+.prev-btn {
+    left: 20px;
+}
+
+.next-btn {
+    right: 20px;
+}
+
+.item-dev {
+    position: relative;
+}

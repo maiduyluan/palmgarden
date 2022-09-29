@@ -1,0 +1,293 @@
+@media screen and (min-width: 480px) and (max-width: 1430px ) {
+    
+    .nav-left {
+        display: none;
+    }
+    
+    .nav-right {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        max-height: 190px;
+    }
+
+    .navbar .nav-center {
+        width: 37%;
+    }
+
+    .navbar .nav-center img {
+        height: 150px;
+    }
+
+    .btn-nav {
+        width: 70px;
+        height: 65px;
+        display: block;
+        right: 20px;
+        top: 25px;
+        border: 1px solid white;
+        background-color: #fff0;      
+        padding: 0px 10px 0px 10px;
+    }
+
+    .btn-nav .btn-border {
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        margin: 10px 0px;
+    }
+
+    /* RES NAV */
+    
+    .res-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 40%;
+        height: 100vh;
+        padding: 50px 20px;
+        display: block;
+        background-color: #0b4a19;
+        background-image: url(/imgSunValley/img14-0-2022/pattern.png);
+        transition: 0.5s;
+        transform: translateX(-100%);
+    }
+
+    .res-nav.showup {
+        transform: translateX(0%);
+    }
+
+    .res-cancel-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .res-cancel-btn i {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .res-menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    .res-menu a {
+        text-decoration: none;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    /* MODAL VIEW360 */
+
+    .modal-content {
+        left: 0;
+    }
+
+    .modal-content iframe {
+        width: 100%;
+    }
+
+    /* NAVBAR-HEADER */
+
+    .slide {
+        height: 440px;
+    }
+    
+    .banner-caption {
+        font-size: 15px;
+    }
+
+    .slick-track {
+        height: 720px;
+    }
+
+    .form-product-document {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 435px;
+    }
+
+    .content-document {
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+    }
+
+    /* SLIDE */
+
+    .main-intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .item-intro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+    
+    .content-intro { 
+        width: 50%;
+        height: 38%;
+    }
+
+    .content-intro p {
+        font-size: 20px;
+    }
+    
+    .img-intro {
+        width: 50%;
+        height: 100%;
+        padding: 0px 20px;
+    }
+
+    .img-intro-item1 {
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+
+    .title-container {
+        height: 80px;
+        padding: 22px 0px;
+    }
+
+    /* INTRO */
+
+    .overlay-product {
+        display: none;
+    }
+
+    .content-product {
+        height: 430px;
+        padding: 30px 100px 0px 20px !important;
+    }
+
+    .content-product p {
+        font-size: 20px;
+    }
+
+    .content-product p span {
+        font-size: 19px;
+    }
+
+    .content-product a {
+        font-size: 19px;
+        width: 140px;
+        padding: 9px 20px;
+    }
+
+    .img-product-item {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    /* PRODUCT */
+
+    .content-news {
+        display: none;
+        font-size: 18px;
+    }
+
+    .overlay-news {
+        background-color: rgba(6,52,81, .5);
+        transform: translateY(-100%);
+    }
+
+    .col-res {
+        padding: 5px;
+    }
+
+    /* NEWS */
+
+    .main-contact {
+        height: 850px;
+    }
+
+    .form-contact input {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form-contact textarea {
+        width: 100%;
+    }
+
+    /* CONTACT */
+
+    .footer {
+        height: 100%;
+        font-size: 15px;
+        background-size: cover;    
+    }
+
+    /* FOOTER */
+
+    .call-zalo {
+        bottom: 30px;
+    }
+
+    .leaf-col img, .leaf-col-reverse img {
+        width: 50%;
+    }
+
+    .leaf-col-reverse {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .leaf-res img {
+        width: 50%;
+    }
+
+    .leaf-row-reverse img {
+        width: 30%;
+    }
+
+    .leaf, .leaf-reverse {
+        display: none;
+    }
+
+    .leaf-res-top {
+        bottom: 0;
+        top: unset;
+    }
+    
+    .leaf-res-bottom {
+        bottom: unset;
+        left: 0;
+        top: -90px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .title-intro {
+        height: 5%;
+        text-align: center;
+    }
+
+    .main-intro {
+        height: 100%;
+    }
+
+    .main-product {
+        height: 900px;
+    }
+    
+
+}
+
